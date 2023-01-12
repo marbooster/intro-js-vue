@@ -1,0 +1,688 @@
+.slideshow {
+  margin-top: 40px;
+  width: 94%;
+  height: 600px;
+  border: 1px solid white;
+  border-radius: 5px;
+  position: relative;
+  z-index: 0;
+}
+
+.slideshow h1 {
+  position: absolute;
+  left: 5%;
+  top: 12%;
+  color: white;
+  font-size: 4.5rem;
+  z-index: 1;
+  width: calc(100% -100px);
+}
+
+.slideshow .cadre1 {
+  display: inline-block;
+  width: 35%;
+  background-color: #000;
+  color: white;
+  height: 600px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  position: relative;
+}
+
+.slideshow .cadre1 p {
+  position: absolute;
+  bottom: 25%;
+  left: 18%;
+  font-size: 14px;
+}
+
+#login-show {
+  position: absolute;
+  left: 15%;
+  bottom: 10%;
+  padding: 8px 25px;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.slideshow .cadre2 {
+  display: inline-block;
+  width: 59%;
+  height: 600px;
+  ;
+  position: absolute;
+}
+
+.slideshow .cadre2 img {
+  width: 110%;
+  height: 600px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.slideshow .cadre2 .cadre1-display {
+  display: none;
+}
+
+.slideshow .cadre2 .button-cadre1-dsiplay {
+  display: none;
+}
+
+.button-cadre1-dsiplay .button-cadre2 {
+  padding: 8px 25px;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer .modal-footer {
+  display: none !important;
+}
+
+#login-modal {
+  display: block;
+  position: fixed;
+  z-index: 200;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 30px;
+}
+
+.inscription {
+  /*width: 50%;
+    margin: auto;
+    margin-bottom: 42px;*/
+  position: relative;
+  overflow: visible;
+  padding: 0;
+  width: 432px;
+  /* Add Zoom Animation */
+}
+
+.inscription .animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+.inscription #form {
+  width: 436px;
+  margin: auto;
+  padding: 47px 12px 27px 16px;
+  background: black;
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+  position: relative;
+  /*.pnGroup.error .borderColordGreen{
+        border-color: #09c372 !important;
+        border-width: 2px;
+    }*/
+  /* The container */
+  /* Hide the browser's default checkbox */
+  /* Create a custom checkbox */
+  /* On mouse-over, add a grey background color */
+  /* When the checkbox is checked, add a blue background */
+  /* Create the checkmark/indicator (hidden when not checked) */
+  /* Show the checkmark when checked */
+  /* Style the checkmark/indicator */
+}
+
+.inscription #form .toggle-login i {
+  position: absolute;
+  right: 5%;
+  top: 1%;
+  font-size: 25px;
+}
+
+.inscription #form .toggle-login i:hover,
+.inscription #form .toggle-login i:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.inscription #form .button-party {
+  text-align: center;
+}
+
+.inscription #form .form-inscription-button {
+  padding: 10px 5px;
+  width: 50%;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+}
+
+.inscription #form .input-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.inscription #form .text-login {
+  margin-top: 10px;
+}
+
+.inscription #form .input-control input:focus {
+  outline: 0;
+}
+
+.success {
+  border-color: #09c372;
+  border-width: 2px;
+}
+
+.errorMain {
+  border-color: #ff3860;
+  border-width: 2px;
+}
+
+.error2 {
+  color: #ff3860;
+  font-size: 10px;
+  position: absolute;
+  top: 43px;
+  right: 121px;
+}
+
+.error3 {
+  color: #ff3860;
+  font-size: 10px;
+  position: absolute;
+  top: 57px;
+  left: 2px;
+}
+
+.errorDate {
+  position: absolute;
+  color: #ff3860;
+  top: 62px;
+  font-size: 10px;
+}
+
+.inscription #form .errorDateColor {
+  color: #000 !important;
+}
+
+.inscription #form .pnGroup.success2 .nomInput {
+  border-color: #09c372;
+  border-width: 2px;
+}
+
+.inscription #form .form-group .black {
+  border-color: #000 !important;
+  border-width: 2px;
+}
+
+.inscription #form .form-group.success .emailInput {
+  border-color: #09c372;
+  border-width: 2px;
+}
+
+.inscription #form .form-group.success .participInput {
+  border-color: #09c372;
+  border-width: 2px;
+}
+
+.inscription #form .form-group {
+  position: relative;
+}
+
+.inscription #form .form-group.black input {
+  border-color: #000 !important;
+}
+
+.inscription #form .pnGroup .prenomInput .black {
+  border-color: #000 !important;
+  border-width: 2px;
+}
+
+.inscription #form .pnGroup.error .prenomInput {
+  border-color: #ff3860;
+  border-width: 2px;
+}
+
+.inscription #form .pnGroup.error2 .borderColord {
+  border-color: #ff3860 !important;
+  border-width: 2px;
+}
+
+.inscription #form .form-group.error .blackError {
+  color: #000 !important;
+}
+
+.inscription #form .form-group.error2 .blackError {
+  color: #000 !important;
+}
+
+.inscription #form .pnGroup.error2 .nomInput {
+  border-color: #ff3860;
+  border-width: 2px;
+}
+
+.inscription #form .form-group.error .emailInput {
+  border-color: #ff3860;
+  border-width: 2px;
+}
+
+.inscription #form .form-group.error .participInput {
+  border-color: #ff3860;
+  border-width: 2px;
+}
+
+.inscription #form .form-group.error .jourSelect {
+  border-color: #ff3860;
+  border-width: 2px;
+}
+
+.inscription #form .form-group.error .moisSelect {
+  border-color: #ff3860;
+  border-width: 2px;
+}
+
+.inscription #form .lu {
+  border-color: #ff3860;
+  border-width: 2px;
+}
+
+.inscription #form .lu2 {
+  border-color: #000 !important;
+  border-width: 2px;
+}
+
+.inscription #form .lu1 {
+  border-color: #09c372;
+  border-width: 2px;
+}
+
+.inscription #form .form-group .error {
+  color: #ff3860;
+  font-size: 10px;
+  position: absolute;
+  top: 43px;
+  left: 2px;
+}
+
+.inscription #form .form-group .blackError2 {
+  color: #000 !important;
+}
+
+.inscription #form .form-group .error2 {
+  color: #ff3860;
+  font-size: 10px;
+  position: absolute;
+  top: 43px;
+  right: 121px;
+}
+
+.inscription #form .form-group .emailError {
+  font-size: 10px;
+  top: 58px;
+}
+
+.inscription #form .form-group .participError {
+  top: 63px;
+}
+
+.inscription #form .party-radio {
+  margin-top: 14px;
+}
+
+.inscription #form .radioContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inscription #form .radio-control {
+  font-family: system-ui, sans-serif;
+  line-height: 1.1;
+  font-size: 1.5rem;
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.inscription #form .label-radio-2 {
+  margin-left: 20px;
+}
+
+.inscription #form .radio-control span {
+  font-size: 0.75rem;
+}
+
+.inscription #form input[type=radio] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: black;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 0.6em;
+  height: 0.6em;
+  border: 1px solid #09c372;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+  margin-right: 0.2em;
+}
+
+.inscription #form input[type=radio]::before {
+  content: "";
+  width: 0.4em;
+  height: 0.4em;
+  border-radius: 50%;
+  opacity: 0;
+  transition: 10ms opacity ease-in-out;
+  box-shadow: inset 1em 1em #09c372;
+}
+
+.inscription #form input[type=radio]:checked::before {
+  opacity: 1;
+}
+
+.inscription #form .checkbox-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.inscription #form .checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.inscription #form .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0.7em;
+  width: 0.7em;
+  border-radius: 5px;
+  background-color: #eee;
+}
+
+.inscription #form .checkbox-container:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+.inscription #form .checkbox-container input:checked~.checkmark {
+  background-color: #09c372;
+}
+
+.inscription #form .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.inscription #form .checkbox-container input:checked~.checkmark:after {
+  display: block;
+}
+
+.inscription #form .checkbox-container .checkmark:after {
+  left: 5px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.inscription #form .checkbox-container .checkbox-label {
+  font-size: 0.8rem;
+}
+
+.inscription .inputField {
+  width: 100%;
+}
+
+.inscription .pnGroup {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.inscription .pnGroup input {
+  padding: 10px 10px;
+  border-radius: 7px;
+  background: #f5f6f7;
+}
+
+.inscription .pnGroup input ::-webkit-input-placeholder {
+  color: red;
+  opacity: 1;
+}
+
+.inscription .prenomInput {
+  width: 47%;
+}
+
+.inscription .nomInput {
+  width: 50%;
+  margin-left: 7px;
+}
+
+.inscription .emailInput,
+.inscription .participInput {
+  width: 98.5%;
+  margin-top: 18px;
+  border-radius: 7px;
+  padding: 8px 10px;
+  background: #f5f6f7;
+}
+
+.inscription .labelMargin {
+  margin-top: 14px;
+}
+
+.inscription .participInput {
+  margin-top: 5px;
+}
+
+.inscription .selectDate {
+  display: flex;
+  margin-top: 5px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.inscription .selectDate .moisSelect {
+  padding: 8px 0px;
+  border-radius: 5px;
+  background: #f5f6f7;
+  width: 100%;
+  padding-right: 72px;
+  padding-left: 7px;
+}
+
+.inscription .selectDate .jourSelect {
+  padding: 8px 0px;
+  border-radius: 5px;
+  background: #f5f6f7;
+  padding-right: 22px;
+  padding-left: 7px;
+}
+
+.inscription .selectDate .anneeSelect {
+  padding: 8px 0px;
+  margin-right: 6px;
+  border-radius: 5px;
+  background: #f5f6f7;
+  padding-right: 72px;
+  padding-left: 7px;
+}
+
+.inscription #form-content {
+  display: block;
+}
+
+.inscription #form-success {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  height: 70vh;
+  position: relative;
+}
+
+.inscription #form-success .form-success-firstParagraph {
+  font-size: 25px;
+  position: absolute;
+}
+
+.inscription #form-success .form-success-button {
+  padding: 10px 68px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  margin-top: 367px;
+}
+
+.inscription input[type=text]::-moz-placeholder,
+.inscription input[type=email]::-moz-placeholder,
+.inscription input[type=number]::-moz-placeholder {
+  font: 15px/3 sans-serif;
+  color: black;
+  opacity: 0.5;
+}
+
+.inscription input[type=text]:-ms-input-placeholder,
+.inscription input[type=email]:-ms-input-placeholder,
+.inscription input[type=number]:-ms-input-placeholder {
+  font: 15px/3 sans-serif;
+  color: black;
+  opacity: 0.5;
+}
+
+.inscription input[type=text]::placeholder,
+.inscription input[type=email]::placeholder,
+.inscription input[type=number]::placeholder {
+  font: 15px/3 sans-serif;
+  color: black;
+  opacity: 0.5;
+}
+
+.inscription select {
+  font: 15px/3 sans-serif;
+  color: gray;
+}
+
+.inscription .borderCondition {
+  border: 3px solid #ff3860;
+}
+
+@media screen and (max-width: 769px) and (max-width: 1044px) {
+  .slideshow h1 {
+    font-size: 4rem;
+  }
+  .slideshow .cadre2 .button-cadre1-dsiplay {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slideshow {
+    height: 500px;
+  }
+
+  .slideshow h1 {
+    font-size: 3.7rem;
+    color: black;
+    top: -7%;
+    left: 0;
+  }
+
+  .slideshow .cadre1 {
+    display: none;
+  }
+
+  .slideshow .cadre2 {
+    padding-top: 180px;
+    width: 100%;
+  }
+
+  .slideshow .cadre2 img {
+    width: 100%;
+    height: 450px;
+  }
+
+  .slideshow .cadre2 .cadre1-display {
+    display: block;
+    text-align: justify;
+  }
+  .slideshow .cadre2 .button-cadre1-dsiplay {
+    display: block;
+    text-align: center;
+    padding-top: 55px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .slideshow h1 {
+    font-size: 2.5rem;
+  }
+  .slideshow .cadre2 {
+    padding-top: 95px;
+  }
+  .slideshow .cadre2 img {
+    height: 285px;
+  }
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 611px) {
+  .slideshow h1 {
+    font-size: 2.7rem;
+  }
+  .slideshow .cadre2 {
+    padding-top: 77px;
+  }
+}

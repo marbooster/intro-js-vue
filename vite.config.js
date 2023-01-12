@@ -12,5 +12,5 @@ export default defineConfig({
       vue: '@vue/compat',
     }
   },
-  base: 'intro-js-vue',
+  base: '/intro-js-vue/',
 })
